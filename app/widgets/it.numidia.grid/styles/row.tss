@@ -1,0 +1,8 @@
+"#Wrapper": {
+    className: 'gridrow',
+    width: Ti.UI.FILL,
+    backgroundSelectedColor:"#dbdbdb",
+	backgroundColor:"#ffffff"
+}
+
+ 

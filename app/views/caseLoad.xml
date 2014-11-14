@@ -1,0 +1,57 @@
+<Alloy>
+	<Window id="win" class="container"  backgroundColor="white" exitOnClose="true" fullscreen="false" layout="vertical" title="CCATS">
+		<Require type="widget" src="ds.slideMenu" id="ds"/>	
+	<View id="title_view">
+		<Label  color="#1AAC59" shadowColor="#aaa" text="Case Load" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"
+             width="Ti.UI.SIZE" height="Ti.UI.SIZE"  />
+   </View>
+ 
+    <View id="first_view">
+ 		<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">Permitee</Label>
+    	<TextField id="permiteeText"  color="#336699"  left="10" width="100" height="40" />
+    	<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">Address</Label>
+    	<TextField id="addressText" color="#336699"  left="10" width="100" height="40" />
+    </View>
+    <View id="second_view">
+		<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">DBA</Label>
+    	<TextField id="dbaText" color="#336699"  left="10" width="100" height="40" />
+    	<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">DCID</Label>
+    	<TextField id="dcidText" color="#336699"  left="10" width="100" height="40" />
+    </View>
+    <View id="first_view">
+ 		<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">Borough</Label>
+    	<TextField id="boroughText"  color="#336699"  left="10" width="100" height="40" />
+    	<Label color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  width="100" height="40">ZipCode</Label>
+    	<TextField id="zipcodeText"  color="#336699"  left="10" width="100" height="40" />
+    </View>
+   
+ 	<View id="third_view">
+		<Button id="searchButton"  title="Search"
+            width="150" height="50" />
+		<Button id="clearFilterButton"  title="Clear Filter"
+            width="150" height="50" />
+		          
+	 </View>  
+	 <View id="third_view">
+	 	<Button id="customButton"  title="Monday"
+            width="100" height="50" />
+		<Button id="customButton"  title="Tuesday"
+            width="100" height="50" />
+        <Button id="customButton"  title="Wednesday"
+            width="100" height="50" />
+		<Button id="customButton"  title="Thursday"
+            width="100" height="50" />
+        <Button id="customButton"  title="Friday"
+            width="100" height="50" />
+		<Button id="customButton"  title="Saturday"
+            width="100" height="50" />
+            <Button id="customButton"  title="Sunday"
+            width="100" height="50" />
+		
+	 </View>
+	 <View id="content">
+			<Require id="grid" src="it.numidia.grid" type="widget"  />
+     </View>     
+</Window>
+</Alloy>
+

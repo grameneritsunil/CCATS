@@ -1,0 +1,10 @@
+"#label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	color:'#515151',
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'normal'
+	}
+}

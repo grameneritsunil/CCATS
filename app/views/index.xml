@@ -1,0 +1,28 @@
+<Alloy>
+	
+	<Window class="container"  backgroundColor="white" exitOnClose="true" fullscreen="false" layout="vertical" title="CCATS">
+ 		<TableView id='tableView'>
+ 		<TableViewRow id='tableViewRowTitle'>
+ 				<Label id="title_label_view" text="Child Care Applicant Tracking System"/>
+ 		</TableViewRow>
+  			
+   		<TableViewRow id='tableViewRow'>
+				<Label id="userNameLabel" >User Name</Label>
+    			<TextField id="userNameText" name="userNameText"/>
+   		</TableViewRow>
+   		
+		<TableViewRow id='tableViewRow'>
+				<Label id="passwordLabel">Password</Label>
+    			<TextField id="passwordText" name="passwordText"/>
+   		</TableViewRow>
+   		
+   		<TableViewRow id='tableViewRow'>
+				<Button id="loginButton"  title="Login" name='loginButton'/>                        
+				<Button id="exitButton"  title="Exit" name='exitButton'/>
+				<Button id="signupButton"  title="SignUp" name='signupButton'/>            
+ 			
+   		</TableViewRow>
+   		</TableView>   
+	</Window>
+</Alloy>
+

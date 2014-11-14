@@ -1,0 +1,217 @@
+".container": {
+	backgroundColor:"white"
+}
+"#win": {
+	backgroundColor : "#FFF"
+}
+
+
+"#Label": {
+	width: '150',
+     height: '40',
+     left:10,
+     layout: 'horizontal',
+     borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+     color: '#336699',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"content": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+
+"#welcome_user_view":{
+	top: '10%',
+     width: '100%',
+     height: '5%',
+     layout: 'horizontal',
+     color: '1AAC59',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"#title_view":{
+	top: '20',
+     width: '100%',
+     height: '3%',
+     layout: 'horizontal',
+     color: '1AAC59',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '40dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    }
+}
+"#first_view":{
+	top: '50',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+     layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#second_view":{
+	top: '10',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#third_view":{
+	top: '10',
+	 width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal' ,
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"#permiteeText":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#addressText":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#dbaText":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#dcidText":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#boroughText":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+
+"#zipcodeText":{
+	left: '50',
+	  width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#E3E1E1'
+   
+}
+
+
+"#searchButton":{
+	left: '50',
+	  width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#3649D9' 
+}
+"#clearFilterButton":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#3649D9'
+   
+}
+"#customButton":{
+	left: '50',
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     backgroundColor: '#3649D9' 
+}
+"#view1":{
+	left: '50',
+	 width: '100',
+     height: '45',
+     backgroundColor: '#3649D9' 
+}
+"#divider": {
+	height: "4dp",
+	width: "100%",
+	top: "1dp",
+	color: "#4BDE70",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#4BDE70", offset: 0.0 },
+			{ color: "#05E83D", offset: 0.5 }
+		]
+	}
+}
+
+
+"#tableViewRow":{
+	left: '10',
+	right: '10',
+	 width: '100%',
+     height: '40',
+     layout: 'horizontal',
+     border:'2',
+     borderColor:'#B0B5B1',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+

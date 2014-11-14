@@ -1,0 +1,212 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"#tableView":{
+	 width: '80%',
+     height: '60%',
+     layout: 'horizontal|center',
+     border:'10',
+     borderColor:'#524DE8',
+     backgroundColor: 'transparent'
+}
+"#tableViewRow":{
+	top:'10',
+	 width: '100%',
+     height: '60',
+     layout: 'horizontal',
+     border:'2',
+     left:'250',
+     borderColor:'#B0B5B1',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"#tableViewRowTitle":{
+	 width: '90%',
+     height: '70',
+     bottom:'50',
+     layout: 'horizontal',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '50dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    }
+}
+
+
+"#title_view":{
+	top: '10%',
+     width: '100%',
+     height: '5%',
+     layout: 'horizontal|center',
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '50dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    }
+}
+"#title_label_view":{
+	 width: '90%',
+     height: '70',
+     layout: 'horizontal|center',
+     backgroundColor: 'transparent',
+     color:'#0921AD',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '49dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    }
+}
+
+"#first_view":{
+	top: '50',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+     layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#second_view":{
+	top: '10',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#third_view":{
+	top: '10',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal' ,
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"#userNameText":{
+	 width: '200',
+     height: '40',
+        color:'#3426B5',
+        borderRadius:'5',
+     backgroundColor: '#E0DFE8'  
+}
+"#userNameLabel":{
+	 width: '100',
+     height: '45',
+     backgroundColor: '#FFFFFF',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+       }
+   
+}
+"#passwordLabel":{
+	 width: '100',
+     height: '45',
+     backgroundColor: '#FFFFFF',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+       }
+   
+}
+"#passwordText":{
+	 width: '200',
+     height: '40',
+     color:'#3426B5',
+     borderRadius:'5',
+     backgroundColor: '#E0DFE8'
+   
+}
+"#loginButton":{
+	width: '150',
+     height: '40',
+     borderRadius:'5',
+     left:'100',
+     backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#4C6CED", offset: 0.0 },
+			{ color: "#09279C", offset: 0.5 }
+		]
+	}
+   
+}
+"#exitButton":{
+	width: '150',
+     height: '40',
+     borderRadius:'5',
+     left:'100',
+     backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#4C6CED", offset: 0.0 },
+			{ color: "#09279C", offset: 0.5 }
+		]
+	}
+}	
+"#signupButton":{
+	 width: '150',
+     height: '40',
+     borderRadius:'5',
+     left:'100',
+     backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#4C6CED", offset: 0.0 },
+			{ color: "#09279C", offset: 0.5 }
+		]
+	}
+   
+}
+

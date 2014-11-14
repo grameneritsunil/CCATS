@@ -1,0 +1,45 @@
+<Alloy>
+	<Window id="win" class="container"  backgroundColor="white" exitOnClose="true" fullscreen="false" layout="vertical" title="CCATS">
+	
+	 <Label  id="title_view" color="#1AAC59" text="Case Load" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"
+             width="Ti.UI.SIZE" height="Ti.UI.SIZE"  />
+    <View id="divider"/>
+		
+    <View id="first_view">
+ 		<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >Permitee</Label>
+    	<TextField id="permiteeText"  color="#336699"  left="10" />
+    	<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >Address</Label>
+    	<TextField id="addressText" color="#336699"  left="10"  />
+    </View>
+    <View id="second_view">
+		<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >DBA</Label>
+    	<TextField id="dbaText" color="#336699"  left="10" />
+    	<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >DCID</Label>
+    	<TextField id="dcidText" color="#336699"  left="10"  />
+    </View>
+    <View id="second_view">
+ 		<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >Borough</Label>
+    	<TextField id="boroughText"  color="#336699"  left="10" />
+    	<Label id='Label' color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT"  >ZipCode</Label>
+    	<TextField id="zipcodeText"  color="#336699"  left="10"  />
+    </View>
+   
+ 	<View id="third_view">
+		<Button id="searchButton"  title="Search"/>
+		<Button id="clearFilterButton"  title="Clear Filter"/>
+	 </View>  
+
+	<TableView>
+		<TableViewRow id='tableViewRow'><Button id="customButton"  title="Monday"/><Button id="customButton"  title="Tuesday"/><Button id="customButton"  title="Wednesday"/><Button id="customButton"  title="Thursday"/><Button id="customButton"  title="Friday"/><Button id="customButton"  title="Saturday"/><Button id="customButton"  title="Sunday"/></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		<TableViewRow id='tableViewRow'><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>111</Label><Label id='Label'>AA</Label><Label id='Label'>AA</Label></TableViewRow>
+		
+		</TableView>   
+</Window>
+</Alloy>
+

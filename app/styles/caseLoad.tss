@@ -1,0 +1,160 @@
+".container": {
+	backgroundColor:"white"
+}
+"#win": {
+	backgroundColor : "#FFF"
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"content": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+"#title_view":{
+	top: '10%',
+     width: '100%',
+     height: '5%',
+     layout: 'horizontal',
+     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+     backgroundColor: 'transparent',
+     font: {
+        fontFamily:'Helvetica',
+        fontSize: '50dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#first_view":{
+	top: '50',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+     layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#second_view":{
+	top: '10',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal',
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+"#third_view":{
+	top: '10',
+     width: '100%',
+     height: '5%',
+     backgroundColor: '#FFFFFF',
+      layout: 'horizontal' ,
+      font: {
+        fontFamily:'Helvetica',
+        fontSize: '15dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+}
+
+"#permiteeText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#addressText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#dbaText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#dcidText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+"#boroughText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+
+"#zipcodeText":{
+	left: '50',
+	 width: '150',
+     height: '45',
+     backgroundColor: '#E3E1E1'
+   
+}
+
+
+"#searchButton":{
+	left: '50',
+	 width: '100',
+     height: '45',
+     backgroundColor: '#3649D9' 
+}
+"#clearFilterButton":{
+	left: '50',
+	 width: '100',
+     height: '45',
+     backgroundColor: '#3649D9'
+   
+}
+"#customButton":{
+	left: '50',
+	 width: '100',
+     height: '45',
+     backgroundColor: '#3649D9' 
+}
+
+"#divider": {
+	height: "48dp",
+	width: "3dp",
+	top: "1dp",
+	right: "50dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#666", offset: 0.0 },
+			{ color: "#ccc", offset: 0.5 },
+			{ color: "#666", offset: 1.0 }
+		]
+	}
+}
+
+
